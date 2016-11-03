@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="uos_settings_title">crDroid Settings</string>
+    <string name="uos_settings_title">UOS Settings</string>
     <string name="uos_personalization_category">Personalization</string>
     <string name="uos_addons_category">Addons</string>
 
@@ -40,8 +40,11 @@
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="hide_network_traffic_state">Hide traffic monitor</string>
+    <string name="network_traffic_description">Turning on this settings help you quickly monitor the speed of your network. The speed will be displayed in your statusbar.</string>
+    <string name="show_network_traffic_state">Display traffic monitor</string>
     <string name="show_network_traffic_unit">Display unit</string>
+    <string name="show_network_traffic_unit_detail">Choose to display the speed whether in bits or in bytes</string>
     <string name="show_network_traffic_frequency">Update interval</string>
     <string name="show_network_traffic_disable">Disabled</string>
     <string name="show_network_traffic_up">Outgoing</string>
@@ -287,16 +290,6 @@
     <!-- Disabling immersive mode messages -->
     <string name="disable_immersive_message_title">Disable immersive mode messages</string>
     <string name="disable_immersive_message_summary">Hide all messages shown in immersive mode</string>
-
-    <!-- Statusbar crDroid logo -->
-    <string name="status_bar_logo_category_title">Statusbar logo</string>
-    <string name="status_bar_uos_logo_title">crDroid logo</string>
-    <string name="status_bar_uos_logo_summary">Enable to display crDroid logo</string>
-    <string name="status_bar_uos_logo_color">crDroid logo color</string>
-    <string name="status_bar_uos_logo_position">Logo location</string>
-    <string name="status_bar_uos_logo_position_summary">Choose which side to display the logo on, left or right</string>
-    <string name="status_bar_logo_position_right">Right</string>
-    <string name="status_bar_logo_position_left">Left</string>
 
     <!-- Expanded Desktop -->
     <string name="power_menu_expanded_desktop">Expanded Desktop</string>
