@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/misc_title"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <PreferenceScreen
+             android:title="@string/power_notification_title"
+             android:summary="@string/power_notification_summary">
+        <intent android:action="android.intent.action.MAIN"
+             android:targetPackage="com.android.systemui"
+             android:targetClass="com.android.systemui.tuner.PowerNotificationControlsActivity" />
+        </PreferenceScreen>
+
+        <com.uos.settings.preferences.SystemSettingSwitchPreference
+             android:key="force_expanded_notifications"
+             android:title="@string/force_expanded_notifications_title"
+             android:summary="@string/force_expanded_notifications_summary" />
+
+        <com.uos.settings.preferences.SystemSettingSwitchPreference
+            android:key="disable_immersive_message"
+            android:title="@string/disable_immersive_message_title"
+            android:summary="@string/disable_immersive_message_summary" />
+
+     <PreferenceCategory
+        android:key="breathing_notifications"
+        android:title="@string/breathing_notifications_category">
+
+        <com.uos.settings.preferences.SystemSettingSwitchPreference
+            android:key="missed_call_breath"
+            android:title="@string/missed_call_breath_title"
+            android:summary="@string/missed_call_breath_summary"
+            android:persistent="false"/>
+
+        <com.uos.settings.preferences.SystemSettingSwitchPreference
+            android:key="voicemail_breath"
+            android:title="@string/voicemail_breath_title"
+            android:summary="@string/voicemail_breath_summary"
+            android:persistent="false"/>
+
+        <com.uos.settings.preferences.SystemSettingSwitchPreference
+            android:key="sms_breath"
+            android:title="@string/sms_breath_title"
+            android:summary="@string/sms_breath_summary"
+            android:persistent="false"/>
+     </PreferenceCategory>
+
+</PreferenceScreen>
