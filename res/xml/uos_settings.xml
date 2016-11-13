@@ -76,6 +76,18 @@
             android:fragment="com.uos.settings.fragments.SoundSettings"
             android:icon="@drawable/ic_settings_sound" />
 
+        <PreferenceScreen
+            android:key="umind_settings"
+            android:title="@string/umind_settings_title" 
+            android:icon="@drawable/ic_settings_umind">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.uos.settings.fragments.UMindSettings">
+        </intent>
+        </PreferenceScreen>
+
+
         <!-- Misc -->
         <PreferenceScreen
             android:key="misc_category"

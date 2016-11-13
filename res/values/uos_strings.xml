@@ -754,4 +754,12 @@
     <!-- CPU Info -->
     <string name="show_cpu_info">Show CPU info</string>
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+
+    <!-- UMind -->
+    <string name="show_umind_state">Enable UMind</string>
+    <string name="hide_umind_state">Disable UMind</string>
+    <string name="umind_description">UMind is a virtual assistant written for Vietnamese based on the Deep Learning method. You can access it via holding the power button everywhere</string>
+    <string name="show_umind_locksreen_unit">Offscreen UMind</string>
+    <string name="show_umind_lockscreen_detail">Enable this function to access UMind even when the screen is off or have passcode</string>
+
 </resources>
